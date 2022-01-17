@@ -5,8 +5,8 @@ struct student
  char name[30];
  char div[3];
  char address[50];
- struct student stud;
-};
+ 
+}stud;
 // INSERT RECORD
 void insert()
 {
@@ -132,7 +132,7 @@ void update()
 }
 
 int main()
-{
+{struct student *stud;
  int c, emp;
  do
  {
